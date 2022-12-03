@@ -1,0 +1,82 @@
+.home{
+   width: 100vw;
+   height: 100vh;
+   display: block;
+}
+.homeWrapper{
+   height: calc(100vh - 60px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.newContainer{
+   width: 30%;
+   padding: 20px;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   border:2px solid rgb(40, 152, 243);
+   
+}
+.inputContainer{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.inputTitle{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 500;
+}
+.items{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.files{
+   display: flex;
+   gap: 3px;
+   
+}
+label{
+   font-size: 18px;
+}
+.input{
+   padding: 12px;
+   width: 250px;
+   border-radius: 5px;
+   border: none;
+   background-color:rgba(141, 138, 138, 0.212);
+   font-size: 14px;
+   letter-spacing: 2px;
+}
+.sayla{
+   border: 0.5px solid rgba(0, 0, 0, 0.568);
+   padding: 5px;
+   border-radius: 5px;
+   font-weight: 500;
+   cursor: pointer;
+}
+.btn{
+   padding: 5px;
+   border-radius: 15px;
+   border: none;
+   background-color:rgb(40, 152, 243) ;
+   color: white;
+   font-size: 20px;
+}
+.selectCategories{
+   display: flex;
+   justify-content: space-between;
+}
+.select{
+   
+      padding: 12px;
+      width: 270px;
+      border-radius: 5px;
+      border: none;
+      background-color:rgba(141, 138, 138, 0.212);
+      font-size: 14px;
+      letter-spacing: 2px;
+   
+}
