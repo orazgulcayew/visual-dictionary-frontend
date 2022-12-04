@@ -10,13 +10,33 @@
    justify-content: center;
 }
 .newContainer{
-   width: 30%;
+   width: 70%;
    padding: 20px;
    border-radius: 15px;
    display: flex;
+   gap: 30px;
    flex-direction: column;
    border:2px solid rgb(40, 152, 243);
+}
+.form{
+   display: flex;
+   flex-direction: column;
+}
+.top{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
    
+}
+.line{
+   height: 150px;
+   width: 0.5px;
+   background-color: gray;
+}
+.leftSide{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
 }
 .inputContainer{
    display: flex;
@@ -30,6 +50,7 @@
 }
 .items{
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: space-between;
 }

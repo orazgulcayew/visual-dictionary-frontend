@@ -1,5 +1,6 @@
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Home  from './pages/home/Home'
+import Add from './pages/Add/Add'
 
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
      <Router>
        <Switch>
             <Route path='/' exact><Home/></Route>
-
+            <Route path='/add' exact><Add/></Route>
        </Switch>
      </Router>
   )
